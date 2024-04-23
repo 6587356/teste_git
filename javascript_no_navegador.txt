@@ -1,0 +1,33 @@
+Podemos execultar javascript em um navegador
+
+Podemos utilizar a tag script em documento HTML
+
+Hoje todo navegador moderno possui o console para javascript
+
+Um console de navegador utilizar REPL um ambiente de programacao de computador interativo e simples que recebe entradas de um unico usuario as execulta e retorna o resultado
+
+Um REPL tambem pode ser chamado de interactive toplevel ou language shell
+
+Um REPL permite execultar javascript dentro do contexto da pagina
+
+Podemos modificar o DOM ou fazer login no console
+
+No console podemos visualizar mensagens que foram registradas pelo codigo ou qualquer outra informacao com solicitacoes de rede e erros de seguranca
+
+Math.sqrt() => funcao que retorna a raiz quadrada de um numero
+
+MODIFICANDO O DOM COM JAVASCRIPT 
+
+|Podemos inserir um elemento no body da pagina utilizando 
+
+Exemplo inserindo um cabecario em uma pagina atraves do console.
+
+document.body.innerHTML = "<h1>Este é um cabecario inserido no body utilizando javascript</h1>"
+
+Exemplo de como localizar e alterar uma propriedade de um elemento usando javascript
+
+$("body").style.color = "red"; // Altera a cor do cabecario inserido anteriormente para vermelho
+
+Obs: Nenhuma alteracao realizada atraves do console do navegador sera salva.
+
+

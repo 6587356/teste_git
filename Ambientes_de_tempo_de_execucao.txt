@@ -1,0 +1,26 @@
+Ambiente de tempo de execucao é onde seu programa sera executado 
+
+Determina quais objetos globais podem ser acessados e afeta como o programa sera execultado
+
+Temos dois ambientes de tempo de execucao javascript
+
+AMBIENTE DO NAVEGADOR 
+
+O codigo abaixo é uma forma de criar uma pagina na web
+
+<html>
+<body>
+<h1>My Website</h1>
+<script>window.alert("	Hello World");</script> // (window.alert) Cria um pop-up com uma mensagem
+</body>
+</html
+
+(window.prompt) recebe uma entrada do usuario 
+(window.confirm) envia uma mensagem que so sai da tela depois do usuario confirmar que leu
+
+
+AMBIENTE NODE
+
+Exemplo de como podemos verificar em qual diretorio um arquivo esta instalado
+console.log(process.env.PWD); // 
+
